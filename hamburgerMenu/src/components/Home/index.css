@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.homeDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.homeImg{
+height: 70vh;
+
+}

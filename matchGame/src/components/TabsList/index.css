@@ -1,0 +1,18 @@
+* {
+  font-family: Roboto;
+}
+
+.btnEl {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  margin-left: 10px;
+}
+.yellowHighlight {
+  color: #fec653;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: fit-content;
+}

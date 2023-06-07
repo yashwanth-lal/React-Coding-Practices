@@ -1,0 +1,60 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.categoryUl {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+}
+.ratingUl {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.ratImg {
+  height: 18px;
+  width: 80px;
+}
+.ratList {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.upPara {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 5px;
+  font-size: 13px;
+  color: grey;
+  font-size: 500;
+}
+.resetBtn {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.catSelected {
+  color: #0967d2;
+  cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+}

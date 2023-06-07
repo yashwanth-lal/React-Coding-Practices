@@ -1,0 +1,140 @@
+/* Write your code here. */
+
+/* Extra small devices "mobile phones" */
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 575px) {
+  .overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .twoImgs {
+    display: flex;
+  }
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .bgColor {
+    background-color: #0f172a;
+    height: 100vh;
+  }
+  .para {
+    font-family: "Roboto";
+    text-align: center;
+    color: #f8fafc;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .twoImgs {
+    display: flex;
+  }
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .bgColor {
+    background-color: #0f172a;
+    height: 100vh;
+  }
+  .para {
+    font-family: "Roboto";
+    text-align: center;
+    color: #f8fafc;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .wrapContainer {
+    margin: 0px;
+    padding: 0px;
+  }
+  .overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .twoImgs {
+    display: flex;
+  }
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .bgColor {
+    background-color: #0f172a;
+    height: 100vh;
+  }
+  .para {
+    font-family: "Roboto";
+    text-align: center;
+    color: #f8fafc;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .twoImgs {
+    display: flex;
+  }
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .bgColor {
+    background-color: #0f172a;
+    height: 100vh;
+  }
+  .para {
+    font-family: "Roboto";
+    text-align: center;
+    color: #f8fafc;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .twoImgs {
+    display: flex;
+  }
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .bgColor {
+    background-color: #0f172a;
+    height: 100vh;
+  }
+  .para {
+    font-family: "Roboto";
+    text-align: center;
+    color: #f8fafc;
+    font-size: 40px;
+  }
+}

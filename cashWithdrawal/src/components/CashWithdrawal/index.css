@@ -1,0 +1,91 @@
+.outerContainer {
+    height: 100vh;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.innerContainer {
+    background-color: #150b3e;
+    width:50%;
+    border-radius: 10px;
+height: 60%;    
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+
+.nameAndIcon {
+     display: flex;
+}
+/*RESULTS BOX*/
+.icon {
+    background-color: #c7d2fe;
+    color:#7c3aed;
+    border-radius: 40px;
+    display: block;
+    width:60px;
+    text-align: center;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.name {
+    color:#d4d2db
+}
+
+.balanceContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.balPara {
+     color: #585076;
+     font-size: 20px;
+     font-weight: 600;
+     margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    
+}
+
+.balNumber {
+    color:#d4d2db;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inRupeesPara {
+     color: #585076;
+     display: block;
+     text-align: end;
+     padding: 0px;
+}
+
+.withdrawPara {
+     color: #d4d2db;
+     
+}
+
+.choosePara {
+     color: #585076;
+     font-weight:600
+}
+
+.componentContainer {
+     display: flex;
+     width:100%;
+margin: 0px;
+    padding: 0px;
+  flex-wrap: wrap;
+
+}

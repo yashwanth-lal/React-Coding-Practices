@@ -1,0 +1,93 @@
+.outer1 {
+  background-color: #5763a5;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 45vh;
+  text-align: center;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emptyPassImage{
+    height:28vh;
+    text-align: center;
+}
+.yourPassHeading {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+.noPassPara{
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+}
+
+.spanEl {
+  text-align: center;
+  border: 0.5px solid #7683cb;
+  height: 20px;
+  width: 25px;
+  display: inline-block;
+  border-radius: 14px;
+}
+
+.imgSearchDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.searchIcon {
+  height: 23px;
+  width: 25px;
+  background-color: #f8fafc;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.inputSearchEl {
+  width: 100%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 26.5px;
+  padding: 0px;
+  margin: 0px;
+  border-left: #f8fafc;
+  color: black;
+  font-size: 10px;
+  padding-left: 5px;
+  font-weight: 500;
+    outline: none;
+}
+
+.lineBreak {
+  border: 1px solid #7683cb;
+}
+
+.showPassDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.checkboxEL {
+  margin-right: 5px;
+}
+
+.showPassPara {
+  color: white;
+  font-size: 13px;
+}
+.ulList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}

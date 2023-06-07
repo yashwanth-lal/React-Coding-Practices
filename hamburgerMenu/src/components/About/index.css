@@ -1,0 +1,12 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.aboutDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.aboutImg{
+height: 70vh;
+
+}

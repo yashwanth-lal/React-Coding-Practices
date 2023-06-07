@@ -1,0 +1,42 @@
+
+  .eachSlideDiv {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+
+  }
+  .eachSlideDivBlueBg {
+    background-color: #dbeafe;
+    border-radius: 10px;
+  }
+  .numberEl {
+    padding-right: 15px;
+  }
+
+  .eachSlideBtn {
+    border-radius: 10px;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(170, 207, 236, 0.7);
+    cursor: pointer;
+  }
+
+  .eachSlideHeading {
+    color: #0967d2;
+    font-size: 20px;
+    height: 15px;
+    overflow-wrap: none;
+  }
+
+  .eachSlideDescription {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    overflow-wrap: none;
+  }
+

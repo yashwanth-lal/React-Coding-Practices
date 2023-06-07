@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.cartSumOuter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.cartSummaryDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.containerDiv {
+  width: 30%;
+}
+.cartSummaryPara {
+  color: #616e7c;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.cartSummarySpanEl {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cartSummaryItemsInCart {
+  
+  color: #616e7c;
+  font-weight: 500;
+  font-size: 12px;
+  
+}
+
+.checkoutBtn {
+  background-color: #0b69ff;
+  width: 30%;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .checkoutBtn {
+    width: 100%;
+  }
+}

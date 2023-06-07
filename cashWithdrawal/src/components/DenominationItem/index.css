@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.numberContainer {
+  width: 100%;
+  height: 30px;
+ 
+
+}
+
+.btn {
+    color:#d4d2db;
+    border-color:#d4d2db;
+    background-color: #382f5a;
+    width:100%;
+    border-radius: 5px;
+    /* padding-right: 15px;
+    padding-left: 10px; */
+    height:30px;
+    
+    margin-top:5px;
+   
+    font-weight: bold;
+}
+.listContainer{
+    display: inline;
+    width:45%;
+    justify-content: center;
+     margin-left:15px ;
+     margin-bottom: 10px;
+    
+}

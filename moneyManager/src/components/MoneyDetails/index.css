@@ -1,0 +1,50 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+.balanceContainer {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.incomeContainer {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.expensesContainer {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.balIcon {
+  height: 40px;
+  width: 40px;
+}
+
+.balanceContainer2 {
+}
+
+.balancePara {
+  font-size: 10px;
+}
+
+.balanceNumber {
+  font-size: 15px;
+}

@@ -1,0 +1,11 @@
+/* Write your CSS here */
+
+.slider-container {
+  background-color: rgb(10, 15, 49);
+  padding: 40px;
+  height: 100vh;
+}
+.heading {
+  color: #05acff;
+  text-align: center;
+}

@@ -1,0 +1,81 @@
+/* Write your CSS code here */
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+
+   
+}
+.box{
+      box-shadow: 0px 4px 16px 0px #bfbfbf;
+      width: 50%;
+      height: 50vh;
+       display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ea580c;
+  text-align: center;
+}
+.labelEl {
+  text-align: start;
+  
+}
+.requiredErr {
+  margin: 0px;
+  padding: 0px;
+  color: red;
+  text-align: start;
+  width: 100%;
+}
+.btnEl {
+  background-color: #ea580c;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 25px;
+  width: 60px;
+}
+.successPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnEl2 {
+  background-color: #ea580c;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+}
+.inputEl{
+    border-radius: 5px;
+    border:1px solid;
+    height: 30px;
+
+}
+.errNameInput {
+  border: 1px solid #ff0b37;
+  background-color: rgb(238, 155, 155);
+}
+.errPasswordInput {
+  border: 1px solid #ff0b37;
+  background-color: rgb(238, 155, 155);
+
+}

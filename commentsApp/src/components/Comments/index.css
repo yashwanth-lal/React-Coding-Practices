@@ -1,0 +1,81 @@
+/* Write your CSS here */
+/*Double tap to SELECT ALL and COPY ALL*/
+
+.outer {
+  padding: 15px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputPart {
+  order: 1;
+  display: block;
+
+}
+.image {
+  order: 0;
+  height: 80%;
+  width: 80%;
+  
+}
+.imageDiv{
+    text-align: center;
+}
+.commentHeading {
+}
+
+.direction {
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+}
+.commentInput {
+  display: block;
+}
+.nameInput{
+  width: 100%;
+  height: 40px;
+    margin-bottom: 15px;
+}
+.btn{
+background-color:  #0284c7;
+border: none;
+color: white;
+height: 20px;
+border-radius: 5px;
+font-size: 10px;
+}
+
+/* 
+
+
+
+
+
+
+ */
+.countContainer {
+  display: flex;
+}
+.horizontalLine{ 
+    border: 1px solid #cbd2d9;
+   
+ }
+ .ulEl{
+     list-style-type: none;
+ }
+.commentCount {
+  margin-right: 10px;
+}
+
+/* .commentsDownHeading{
+
+} */
+@media screen and (min-width: 768px) {
+}

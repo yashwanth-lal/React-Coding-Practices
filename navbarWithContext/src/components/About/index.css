@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.aboutDiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 80vh;
+}
+.aboutDivD{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 80vh;
+background-color: black;
+}
+.aboutLightParaD{
+    color: white;
+}

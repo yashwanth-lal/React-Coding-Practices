@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.btnEl{
+    color: black;
+   border: none;
+  font-weight: 600;
+    background-color: white;
+    margin: 10px;
+    padding-top: 3px;
+}
+.selectedBtn{
+    color:#0284c7;
+ border-radius: 15px;
+  font-weight: 600;
+    padding-top: 3px;
+
+    border: 1px solid #0284c7;
+    background-color: white;
+    margin: 10px;
+}

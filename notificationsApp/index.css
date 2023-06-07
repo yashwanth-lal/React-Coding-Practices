@@ -1,0 +1,157 @@
+/* Write your code here. */
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+.heading {
+  color: #0f172a;
+  text-align: center;
+}
+
+.blue {
+  background-color: #0b69ff;
+  height: 60px;
+  width: 220px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.green {
+  background-color: #2dca73;
+  height: 60px;
+  width: 220px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.orange {
+  background-color: #ffb800;
+  height: 60px;
+  width: 220px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.red {
+  background-color: #ff0b37;
+  height: 60px;
+  width: 220px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+  /* border-radius: 20px; */
+}
+.para {
+  color: white;
+  font-size: 12px;
+}
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    color: #0f172a;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .blue {
+    background-color: #0b69ff;
+    height: 70px;
+    width: 270px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .green {
+    background-color: #2dca73;
+    height: 70px;
+    width: 270px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .orange {
+    background-color: #ffb800;
+    height: 70px;
+    width: 270px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .red {
+    background-color: #ff0b37;
+    height: 70px;
+    width: 270px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .icon {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+    /* border-radius: 20px; */
+  }
+  .para {
+    color: white;
+    font-size: 15px;
+  }
+}

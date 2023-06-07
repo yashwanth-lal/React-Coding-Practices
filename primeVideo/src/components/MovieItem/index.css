@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.imgEL {
+  margin: 20px;
+}
+.kl {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.icondiv {
+  fill: black;
+  float: right;
+  display: inline-flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+.modals {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  height: 70%;
+  width: 100%;
+}
+.popup-content {
+  border-radius: 10px;
+}
+.player-wrapper {
+  width: auto;
+  height: auto;
+}

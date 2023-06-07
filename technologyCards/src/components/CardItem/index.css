@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  list-style-type: none;
+}
+.card-1 {
+  border-top: 5px solid #ff4f64;
+    width: 200px;
+
+  background-color: white;
+  border-radius: 10px;
+  margin:5px;
+  margin-right:15px
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+    width: 200px;
+
+  background-color: white;
+  border-radius: 10px;
+  margin:5px
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+    width: 200px;
+
+  background-color: white;
+  border-radius: 10px;
+  margin:5px;
+  margin-right:15px
+
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+    width: 200px;
+
+  background-color: white;
+  border-radius: 10px;
+  margin:5px
+}
+
+/* Write CSS code here. */
+.wholeCardContainer {
+  width: 200px;
+
+  background-color: white;
+  border-radius: 10px;
+}
+.cardHeading {
+  font-size: 15px;
+  padding-left: 10px;
+}
+.cardPara {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.cardImageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px;
+  
+  height: 100px;
+}
+.cardImage {
+}
+
+/* app.js */

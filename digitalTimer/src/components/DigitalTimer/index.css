@@ -1,0 +1,114 @@
+/* Write your CSS here */
+/*Double tap to SELECT ALL and COPY ALL*/
+* {
+  font-family: Roboto;
+  box-sizing: content-box;
+  padding: 0px;
+  margin: 0px;
+}
+.outer {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+}
+
+.middlePart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.bgImage {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgWhite {
+  text-align: center;
+  background-color: white;
+  border-radius: 40px;
+  height: 25%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.runningTime {
+}
+
+.TimePaused_Running {
+}
+
+.controlsPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 18vh;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  width: 45vw;
+}
+
+.start_pauseIcon {
+  height: 25px;
+  width: 25px;
+}
+
+.pauseStartPara {
+}
+
+.resetIcon {
+  height: 25px;
+  width: 25px;
+}
+
+.resetPara {
+}
+
+.setTimerLimitPara {
+}
+.btn{
+    background-color: transparent;
+    border: none;
+}
+.incDecControls {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.minus {
+  width: 20px;
+  height: 20px;
+}
+
+.timerDisplay {
+}
+
+.plus {
+}

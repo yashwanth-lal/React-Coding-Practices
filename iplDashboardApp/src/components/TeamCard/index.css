@@ -1,0 +1,25 @@
+/* Write your CSS here */
+/*Double tap to SELECT ALL and COPY ALL*/
+.outerTeamCardDiv{
+display: flex;
+width: 200px;
+margin: 15px;
+background-color: transparent;
+background: rgba(197, 204, 198, 0.3);
+height: 90px;
+padding-left: 10px;
+padding-top: 15px;
+border-radius: 10px;
+text-align: center;
+}
+
+.teamLogo{
+height: 70px;
+width: 70px;
+padding-right: 10px;
+}
+
+.teamPara{
+color: white;
+font-size: 15px;
+}

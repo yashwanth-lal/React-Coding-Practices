@@ -1,0 +1,22 @@
+/*Double tap to SELECT ALL and COPY ALL*/
+
+.headerDiv {
+  height: 12vh;
+  background-color: #dbeafe;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.headerLogo {
+  height: 50px;
+  width: 50px;
+}
+
+.headerHeading {
+  color: black;
+  font-size: 25px;
+  padding-left: 10px;
+  font-family: Bree Serif;
+}

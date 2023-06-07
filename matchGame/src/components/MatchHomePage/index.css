@@ -1,0 +1,99 @@
+/*Double tap to SELECT ALL and COPY ALL*/
+
+.outer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+    background-color: #2c0e3a;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 15px;
+}
+
+.logoImg {
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+}
+
+.rightDiv {
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+}
+
+.scoreDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+
+
+.scorePara {
+    padding-right: 10px;
+}
+
+.scoreNumber {
+    color:#fec653;
+font-weight: 600;
+}
+
+
+
+.timerImg {
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 5px;
+
+}
+
+.time {
+    color:#fec653;
+font-weight: 600;
+
+}
+
+.span {
+    color:#fec653;
+font-weight: 600;
+
+
+}
+.imageEl{
+    height: 220px;
+    width: 300px;
+    border-radius: 6px;
+}
+.ulEl{
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center;
+    align-items: center; */
+    /* width: 100%; */
+    padding: 0px;
+    list-style-type: none;
+}
+.downDiv{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnailsDiv{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+width:65%
+}
+
+

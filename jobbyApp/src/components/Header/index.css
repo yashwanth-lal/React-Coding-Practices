@@ -1,0 +1,98 @@
+* {
+  text-decoration: none;
+}
+.headerMobileOuterDiv{
+    display: none;
+}
+.outerHeaderDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #272727;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  align-items: center;
+  height: 10vh;
+}
+
+.appLogo {
+  height: 25px;
+  width: auto;
+  margin-left: 25px;
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  .outerHeaderDiv {
+    display: none;
+
+    /* display: flex; */
+    justify-content: space-between;
+    background-color: #272727;
+
+    align-items: center;
+    height: 10vh;
+  }
+  .appLogo {
+    height: 15px;
+    width: auto;
+  }
+  .homePara {
+    color: white;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+
+  .jobsPara {
+    color: white;
+    font-size: 10px;
+  }
+}
+
+.headerElsDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homePara {
+  color: white;
+  margin-right: 15px;
+}
+
+.jobsPara {
+  color: white;
+}
+
+.headerBtnEl {
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  .headerMobileOuterDiv {
+    display: flex;
+    justify-content: space-around;
+    background-color: #272727;
+
+    align-items: center;
+    height: 10vh;
+  }
+ .mobHome{
+margin-right: 20px;
+}
+
+.mobJobs{
+
+margin-right: 20px;
+}
+
+.mobLogout{
+margin-right: 20px;
+
+}
+}

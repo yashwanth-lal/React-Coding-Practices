@@ -1,0 +1,153 @@
+/* Write your CSS here */
+/*Double tap to SELECT ALL and COPY ALL*/
+* {
+  font-family: Roboto;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-left: 25px;
+}
+.detailImg {
+  height: 70vh;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.rightPart {
+  margin-left: 20px;
+}
+
+.detailTitle {
+  font-size: 30px;
+  color: #12022f;
+}
+
+.detailPrice {
+}
+
+.ratingPart {
+  display: flex;
+  text-align: center;
+}
+
+.ratingDiv {
+  display: inline-flex;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 10px;
+}
+
+.detailRating {
+  padding-right: 5px;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+.detailStar {
+  height: 20px;
+  width: 20px;
+  padding-left: 5px;
+}
+
+.detailReviews {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.detailDesc {
+  color: gray;
+}
+
+.detailAvailable {
+}
+
+.detailBrand {
+}
+
+.horzLine {
+}
+
+.addRemoveDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+.minusButton {
+  height: 20px;
+  cursor: pointer;
+}
+
+.plusButton {
+  height: 20px;
+  cursor: pointer;
+}
+.failDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+.failImg {
+  height: 60vh;
+  width: 70%;
+}
+
+.notFoundTxt {
+  font-weight: 600;
+}
+
+.continueBtn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.addtocardBtn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 10px;
+}
+.spanEl {
+  color: grey;
+  padding-left: 10px;
+}
+.divv {
+  display: flex;
+}
+.ul2 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.simiProds {
+  margin-left: 36px;
+}

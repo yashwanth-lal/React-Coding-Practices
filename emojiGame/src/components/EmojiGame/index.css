@@ -1,0 +1,19 @@
+/* Write your code here. */
+.outerGameContainer{
+    background-image: linear-gradient(to Left,#9796f0, #fbc7d4);
+
+height: 90vh;
+padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.emojiBorderDiv{
+        width: 460px;
+    height: 49vh;
+    
+}

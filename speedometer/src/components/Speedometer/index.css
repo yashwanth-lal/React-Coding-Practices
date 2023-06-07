@@ -1,0 +1,88 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+  color: white;
+}
+.fullContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading1 {
+  font-style: italic;
+  font-size: 30px;
+}
+.heading2 {
+  font-size: 20px;
+}
+.para {
+  font-size: 10px;
+  margin-bottom: 25px;
+}
+.image {
+  height: 40vh;
+  width: 80%;
+}
+.btn1 {
+  background-color: #0b69ff;
+  border-radius: 10px;
+  width: 85px;
+  height: 25px;
+  font-size: 10px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: transparent;
+  border-radius: 10px;
+  color: #94a3b8;
+  border-color: #94a3b8;
+  width: 85px;
+  height: 25px;
+  font-size: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .heading1 {
+    font-style: italic;
+    font-size: 35px;
+  }
+  .heading2 {
+    font-size: 25px;
+  }
+  .para {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .image {
+    height: 45vh;
+    width: 80%;
+  }
+  .btn1 {
+    background-color: #0b69ff;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn2 {
+    background-color: transparent;
+    border-radius: 10px;
+    color: #94a3b8;
+    border-color: #94a3b8;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,49 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+.outer {
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.inner {
+  background-color: #f8fafc;
+  height: 35vh;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+    color:#1e293b;
+    font-size: 20px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.sel{
+    height: 30px;
+    margin-right: 10px;
+    border-color: #cbd2d9;
+    outline: none;
+    
+}
+.para {
+    font-size: 15px;
+}
+
+.capital {
+    font-weight: 600;
+}

@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.overallPage {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

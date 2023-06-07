@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.registeredDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.initialPara {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.yetToDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  text-align: center;
+}
+.registerClosedDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.registerClosedImage {
+  height: 150px;
+  width: 150px;
+}
+.activeEventOuter {
+  width: 50%;
+}
+.registeredImage {
+  height: 150px;
+  width: 150px;
+}
+.yetToRegImage {
+  height: 150px;
+  width: 150px;
+}
+.buttonEl {
+  background-color: #0967d2;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+}

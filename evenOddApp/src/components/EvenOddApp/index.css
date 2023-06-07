@@ -1,0 +1,76 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+.overallContainer {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 40vh;
+  width: 80%;
+  border-radius: 9px;
+}
+.heading {
+}
+.btn {
+  height: 20px;
+  width: 80px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 10px;
+}
+.btn:focus {
+  border-style: solid;
+  border-width:2px ;
+}
+.para1 {
+}
+.para2 {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .innerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 60vh;
+  width: 80%;
+  border-radius: 9px;
+}
+.heading{
+    font-size: 50px;
+}
+.para1{
+    font-size: 30px;
+}
+.btn {
+  height: 30px;
+  width: 90px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.btn:focus {
+  border-style: solid;
+  border-width:2px ;
+}
+}

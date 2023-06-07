@@ -1,0 +1,11 @@
+/* Write your CSS code here */
+.userInfoEl{
+    text-align: center;
+}
+.imgel{
+height: 60px;
+width: 60px;
+}
+.name{
+    font-size: 15px;
+}

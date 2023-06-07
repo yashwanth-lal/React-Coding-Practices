@@ -1,0 +1,51 @@
+*{
+    color: white;
+}
+.bgScoreCard{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png");
+    min-height: 85vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/*Double tap to SELECT ALL and COPY ALL*/
+
+
+.insideScoreCard{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 85vh;
+
+}
+
+.trophyEl{
+    height: 120px;
+    width: 150px;
+    margin-top: 100px;
+}
+
+.yourScorePara{
+
+}
+
+.scoreEl{
+
+}
+
+.playAgainBtn{
+display: flex;
+background-color:  #cf60c8;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+outline: none;
+}
+
+.playAgainPara{
+
+}

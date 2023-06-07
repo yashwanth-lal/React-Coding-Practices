@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.vaccinationByGenderDiv {
+  width: 100%;
+  /* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+}
+.byGenderHeading {
+  color: #cbd5e1;
+}

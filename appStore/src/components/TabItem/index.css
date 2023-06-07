@@ -1,0 +1,8 @@
+/* Write your CSS here */
+.btn{
+    background-color: transparent;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    color:#7b8794
+}

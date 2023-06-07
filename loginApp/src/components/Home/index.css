@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.containerOuter {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 90vh;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}

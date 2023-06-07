@@ -1,0 +1,32 @@
+.fullFilterOuter {
+  color: white;
+  font-family: Roboto;
+}
+
+
+
+.fullFilterPara1 {
+    font-size: 18px;
+}
+
+.ulEl1 {
+/* border-bottom: 1px solid #475569; */
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+.listEl {
+display: flex;
+/* justify-content: center; */
+align-items: center;
+margin-top: 10px;
+}
+
+.checkboxEl {
+}
+
+.labelEl {
+    font-weight: 300;
+    font-size: 12px;
+}

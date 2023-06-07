@@ -1,0 +1,100 @@
+* {
+  font-family: Roboto;
+  padding: 0px;
+  margin: 0px;
+}
+.outer {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.inner {
+}
+
+.logo {
+  height: 35px;
+  width: 110px;
+}
+
+.addingNewPassDiv {
+  background-color: #5763a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.formDiv {
+  background-color: #454f84;
+  width: 70%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.addNewPassPara {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.imgInputDiv {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  height: 28px;
+  width: 25px;
+  background-color: #f8fafc;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  margin: 0px;
+
+}
+
+.inputEl {
+  width: 100%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 31.5px;
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  background-color: #f8fafc;
+  outline: none;
+  border-left-color: #b6c3ca;
+  font-weight: 600;
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.btnDiv {
+  text-align: end;
+}
+
+.addBtn {
+  background-color: #0b69ff;
+  width: 50px;
+  height: 25px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.firstPersonImage {
+  width: 40%;
+  height: 70%;
+}

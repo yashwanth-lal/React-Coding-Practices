@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.ulEl2{
+    display: flex;
+width: 100%;
+  flex-wrap: wrap;
+justify-content: flex-start;
+list-style-type: none;
+}
+.ulEl{
+list-style-type: none;
+text-align: center;
+}
+.popularHeading{
+    font-family: Lobster;
+text-align: center;
+
+}
+.load{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+/* Write your code here. */
+* {
+  font-family: Roboto;
+}
+.thumbImg {
+  opacity: 0.5;
+  
+}
+.imgMargin{
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.btn{
+    background-color: white;
+    border: none;
+}

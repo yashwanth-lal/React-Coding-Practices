@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+.headDiv1 {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.headDiv2 {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-right: 20px;
+}
+.ulEl {
+  list-style-type: none;
+}
+.imageEl {
+  width: 100%;
+}
+.loadDiv {
+  height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;}

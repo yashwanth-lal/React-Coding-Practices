@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.liRepItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.nameRI {
+  font-size: 15px;
+  color: #e73959;
+}
+.downn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.starsRi {
+  display: flex;
+  justify-content:flex-start;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+}
+.starsImage {
+  height: 20px;
+  width: 20px;
+}
+.starsPara {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10px;
+}
+.iamgeEle {
+  height: 50px;
+  width: 50px;
+}

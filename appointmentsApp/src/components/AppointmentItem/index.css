@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.outer1 {
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.inner1 {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.titlePara {
+}
+
+.starImg {
+  cursor: pointer;
+}
+
+.dateEl {
+  color: #b5b7c4;
+}
+.btnn {
+  background-color: transparent;
+  border: none;
+}

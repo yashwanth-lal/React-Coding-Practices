@@ -1,0 +1,141 @@
+* {
+  color: white;
+  font-family: Roboto;
+}
+
+.outerJobCardDiv {
+  width: 60vw;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .outerJobCardDiv {
+    width: 90vw;
+    background-color: #272727;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.logoTitleRatingDiv {
+  display: flex;
+  align-items: center;
+}
+
+.companyLogoJobCard {
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.jobCardTitle {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .jobCardTitle {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+}
+
+.ratingDiv {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.starIcon {
+  padding: 0px;
+  margin: 0px;
+  margin-right: 10px;
+  fill: #fbbf24;
+}
+
+.ratingEl {
+  padding: 0px;
+  margin: 0px;
+}
+
+.locationPackageDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.locationJobTypeDiv {
+  display: flex;
+  align-items: center;
+}
+
+.locationIcon {
+  margin-right: 10px;
+}
+
+.locationPara {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.briefCaseIcon {
+  margin-right: 10px;
+}
+
+.employmentTypePara {
+  font-size: 12px;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .packagePara {
+    font-size: 10px;
+  }
+  .locationJobTypeDiv {
+    display: flex;
+    height: 30px;
+    align-items: center;
+  }
+  .locationIcon {
+  margin-right: 10px;
+}
+
+.locationPara {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.briefCaseIcon {
+  margin-right: 10px;
+}
+
+.employmentTypePara {
+  font-size: 10px;
+}
+}
+
+.descriptionHeading {
+  border-top: 2px solid #7e858e;
+  padding-top: 10px;
+  text-align: start;
+  font-size: 15px;
+}
+
+.jobDescriptionPara {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: start;
+}

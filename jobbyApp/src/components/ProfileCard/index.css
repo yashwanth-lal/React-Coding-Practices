@@ -1,0 +1,61 @@
+/*Double tap to SELECT ALL and COPY ALL*/
+.profileCardOuter {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 100%;
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 15px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.profileImage {
+  height: 35px;
+  width: 35px;
+}
+
+.profileName {
+  color: #6366f1;
+  font-size: 15px;
+}
+
+.profileBio {
+  color: #475569;
+  font-size: 12px;
+}
+.profileRetryBtn {
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+.profileRetryBtnOuter {
+  width: 30%;
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 45px;
+}
+.loadJobs2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  width: 30%;
+}

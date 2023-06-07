@@ -1,0 +1,263 @@
+.jobsDetailsOuter {
+  background-color: black;
+  overflow: scroll;
+  padding: 40px;
+}
+
+.jobsDetailsInner {
+  background-color: #272727;
+  height: 100vh;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 10px;
+}
+.loadJobDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  color: white;
+  font-family: Roboto;
+}
+
+.jobDetailsOuter {
+  padding: 15px;
+}
+
+.logoTitleRatingDiv2 {
+  display: flex;
+  align-items: center;
+}
+
+.companyLogoJobCard2 {
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.jobCardTitle2 {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.ratingDiv2 {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.starIcon2 {
+  padding: 0px;
+  margin: 0px;
+  margin-right: 10px;
+  fill: #fbbf24;
+}
+
+.ratingEl2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.locationPackageDiv2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.locationJobTypeDiv2 {
+  display: flex;
+  align-items: center;
+}
+
+.locationIcon2 {
+  margin-right: 10px;
+}
+
+.locationPara2 {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.briefCaseIcon2 {
+  margin-right: 10px;
+}
+
+.employmentTypePara2 {
+  font-size: 12px;
+}
+
+.packagePara2 {
+}
+
+.descriptionHeading2 {
+  padding-top: 10px;
+  text-align: start;
+}
+
+.jobDescriptionPara2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: start;
+}
+
+.descVisitDiv {
+  border-top: 2px solid #7e858e;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptionHeading2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.skillsPara {
+  font-size: 18px;
+  font-weight: 500;
+}
+.externalLinkDiv {
+  display: flex;
+  margin-top: 8px;
+}
+
+.visitPara {
+  display: flex;
+  align-items: center;
+
+  color: #6366f1;
+}
+.linkIcon {
+  fill: #6366f1;
+  margin-left: 5px;
+}
+
+.skillsUl {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.skillList {
+  display: flex;
+  width: 30%;
+  margin: 10px;
+}
+
+.skillImg {
+  height: 40px;
+}
+
+.skillName {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.lifeAtWorkDiv {
+}
+
+.lifeAtWorkPara {
+    font-size:18px ;
+}
+
+.locDescImageDiv {
+  display: flex;
+}
+
+.lifeAtWorkDescription {
+  width: 50vw;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .skillsUl{
+        width: 100vw;
+    }
+    .skillImg{
+height: 25px;
+    }.skillName{
+        font-size: 11px;
+        
+    }.skillList{
+        margin-right: 10px;
+    }
+    .locDescImageDiv{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+.locImage {
+    height: 30vh;
+    border-radius: 10px;
+    width: 68vw!important;
+    margin-left: 10px;
+}
+    .lifeAtWorkDescription {
+        width: 80%;
+  font-size: 12px;
+  padding: 10px;
+  line-height: 15px;
+}
+.packagePara2 {
+    font-size: 10px;
+}
+.locationPara2 {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+
+
+.employmentTypePara2 {
+  font-size: 10px;
+}
+.locationIcon2 {
+  margin-right: 5px;
+  height: 10px;
+}
+
+
+
+.briefCaseIcon2 {
+  margin-right: 5px;
+  height: 10px;
+
+}
+}
+
+.locImage {
+  height: 30vh;
+  border-radius: 10px;
+  width: 40vw;
+  margin-left: 10px;
+}
+.similarJobsOuterDiv {
+  margin-top: 20px;
+}
+.similarJobsUl {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .similarJobsUl {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+}
+.jobsPageFailDiv{
+    height: 100vh;
+}

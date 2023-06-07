@@ -1,0 +1,156 @@
+/* Write your CSS here */
+/*Double tap to SELECT ALL and COPY ALL*/
+*,
+body {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: Roboto;
+}
+.outer {
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.inner {
+}
+
+.accountHolderPartDiv {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 15vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 17px;
+}
+
+.introPara {
+  font-size: 10px;
+}
+
+.appName {
+  font-size: 12px;
+  font-weight: bold;
+  color: #0b69ff;
+}
+.moneyDetailsDiv {
+}
+/* add transaction part */
+.formEl {
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formHeading {
+  font-size: 15px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.titleLabel {
+  color: #7e858e;
+  display: block;
+}
+
+.titleInput {
+  border: 1px solid #cbd5e1;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.amountLabel {
+  color: #7e858e;
+  display: block;
+}
+
+.amountInput {
+  border: 1px solid #cbd5e1;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.typeLabel {
+  color: #7e858e;
+  display: block;
+}
+
+.typeInput {
+  border: 1px solid #cbd5e1;
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+  height: 30px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-width: 0px;
+  background-color: #0b69ff;
+  color: white;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+}
+/* history part css */
+.historyContainerPart {
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.historyHeading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+.historyTable {
+  border: 1px solid #334155;
+}
+
+.historyHeadings {
+  display: flex;
+
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+}
+
+.historyTitle {
+  font-size: 15px;
+  color: #334155;
+  padding-left: 25px;
+}
+
+.historyAmount {
+  font-size: 15px;
+  color: #334155;
+  padding-left: 25px;
+}
+
+.historyType {
+  font-size: 15px;
+  color: #334155;
+  padding-left: 25px;
+}
+.ulEL {
+  list-style-type: none;
+}

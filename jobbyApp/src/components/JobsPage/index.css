@@ -1,0 +1,122 @@
+.leftPartJobsPage {
+  min-height: 100vh;
+  padding: 15px;
+  width: 30%;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .leftPartJobsPage {
+    min-height: 80vh;
+    padding: 15px;
+    width: 100%;
+  }
+}
+.twoSections {
+  display: flex;
+  background-color: black;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .twoSections {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+}
+.loadJobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 70vw;
+}
+.rightPartJobsPage {
+  padding: 10px;
+  width: 70vw;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .rightPartJobsPage {
+    padding: 10px;
+    width: 100vw;
+  }
+}
+.searchDiv {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.searchInputEl {
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 35px;
+  background-color: transparent;
+  border: 2px solid #7e858e;
+  width: 80%;
+  border-right: none;
+  padding-left: 10px;
+  outline: none;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+ .searchDiv {
+  display: flex;
+  align-items: center;
+  order: 3;
+}
+}
+.search-icon {
+  fill: white;
+}
+.searchBtn {
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+  background-color: #272727;
+  width: 40px;
+  height: 35px;
+  border: 2px solid #7e858e;
+  border-left: none;
+}
+.jobFailImg {
+  height: 40vh;
+  margin-top: 15px;
+}
+.profileRetryBtn2 {
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+.jobsPageFailDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Double tap to SELECT ALL and COPY ALL*/
+.noJobsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  width: 50vw;
+}
+
+.noJobsImage {
+  height: 40vh;
+}
+
+.noJobsHeading {
+}
+
+.noJobsPara {
+}

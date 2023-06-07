@@ -1,0 +1,40 @@
+/* Write your code here. */
+.outer2{
+     border: 1px solid #e4e7eb ;
+     margin-bottom: 15px;
+    
+}
+
+.inner2{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+.question{
+    font-weight: 400;
+    color:#52606d
+}
+.btn{
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+
+
+}   
+
+.answer{
+    border-top:1px solid #e4e7eb  !important;
+padding: 10px;
+margin-left: 10px;
+margin-right: 10px;
+color: #9aa5b1;
+
+}

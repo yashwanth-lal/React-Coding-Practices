@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.liDiv{
+display: flex;
+justify-content: space-between;
+color:white
+}
+
+.itemImg{
+height: 30px;
+width: 30px;
+}
+
+.currencyName{
+padding: 0px;
+margin: 0px;
+padding-left: 10px;
+}
+
+.valuesDiv{
+  display: flex;
+  justify-content: space-between;
+  width:20%;
+margin-right: 20px;
+
+}
+
+.usdValue{
+
+}
+.coinTypeDiv{
+    display: flex;
+}
+
+.euroValue{
+
+}

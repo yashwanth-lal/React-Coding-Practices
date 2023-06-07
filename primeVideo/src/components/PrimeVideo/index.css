@@ -1,0 +1,17 @@
+/* Write your CSS here */
+* {
+  color: white;
+}
+.primeHomeDiv {
+  background-color: black;
+}
+.headerPoster {
+  height: 30vh;
+  width: 100%;
+}
+.slider-container{
+    width: 100%;
+}
+.sliderDiv{
+padding: 30px;
+}

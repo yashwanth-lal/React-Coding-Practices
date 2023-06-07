@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+/*Double tap to SELECT ALL and COPY ALL*/
+.listDiv {
+  display: flex;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+}
+.innerDetails {
+  display: column;
+}
+
+.proPicPart {
+  display: flex;
+}

@@ -1,0 +1,21 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+.eachList {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+}
+
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+.deleteBtn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}

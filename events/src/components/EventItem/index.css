@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.eventItem {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 0px;
+  width: 40%;
+}
+.imageEl {
+  width: 80%;
+  height: 80px;
+}
+.namePara {
+  font-size: 10px;
+}
+.locationPara {
+  font-size: 8px;
+}
+.imgBtn {
+  background-color: transparent;
+  border: none;
+}

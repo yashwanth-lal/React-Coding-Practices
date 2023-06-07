@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+/*Double tap to SELECT ALL and COPY ALL*/
+.headerOuter {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.headerLogo {
+  height: 50px;
+  width: 110px;
+}
+
+.headerHome {
+}
+.headerRightPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  list-style-type: none;
+}
+.headerProducts {
+}
+
+.headerCart {
+}
+.custom-link {
+  color: #64748b;
+  text-decoration: none;
+}
+.headerBtn {
+  width: 80px;
+  background-color: #0b69ff;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}

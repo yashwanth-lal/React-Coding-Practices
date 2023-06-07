@@ -1,0 +1,78 @@
+/* Write your CSS here */
+* {
+  list-style-type: none;
+}
+.navbarOuter {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 2px solid #dcdcdc;
+}
+/*Double tap to SELECT ALL and COPY ALL*/
+.lightLogo {
+  height: 60px;
+  width: 60px;
+}
+
+.homeAboutDiv {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.homeNavPara {
+  color: black;
+}
+
+.aboutNavPara {
+  color: black;
+}
+
+.lightModeIcon {
+  height: 60px;
+  width: 60px;
+}
+.modeBtn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* dark mode
+/* Write your CSS here */
+.navbarOuterD {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 2px solid #dcdcdc;
+  background-color: #334155;
+}
+/*Double tap to SELECT ALL and COPY ALL*/
+.lightLogoD {
+  height: 60px;
+  width: 60px;
+}
+
+.homeAboutDivD {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.homeNavParaD {
+  color: white;
+}
+
+.aboutNavParaD {
+  color: white;
+}
+
+.lightModeIconD {
+  height: 60px;
+  width: 60px;
+}
+.modeBtnD {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

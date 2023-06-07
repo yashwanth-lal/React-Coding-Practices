@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.latestMatchPartOuter {
+  display: flex;
+  background-color: #0f172a;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  height: 30vh;
+  width: 90%;
+}
+.latestMatchLogo {
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+}
+.leftPart {
+    width: 40%;
+    
+}
+.rightpart {
+  /* font-size: 15px; */
+
+}
+.q {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+.a {
+      padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+  padding-top: 5px;
+}
+.competingTeam{
+    font-size: 15px;
+}

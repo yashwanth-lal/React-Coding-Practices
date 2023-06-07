@@ -1,0 +1,8 @@
+/* Write your CSS code here */
+.flexItems{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-weight: 600;
+}

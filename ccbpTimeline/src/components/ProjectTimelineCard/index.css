@@ -1,0 +1,30 @@
+/*Double tap to SELECT ALL and COPY ALL*/
+.fullOuterProject {
+}
+
+.imgEl {
+    height: 100%;
+    width: 100%;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.upperDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calenderDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anchor {
+  text-decoration: none;
+  color: #0967d2;
+  font-weight: 600;
+}

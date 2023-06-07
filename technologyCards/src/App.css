@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.overallContainer {
+  background-color: #f4faff;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  width:60%
+}
+.mainHeading {
+  text-align: center;
+  font-size: 60px;
+  width:80%
+}
+.mainPara {
+  text-align: center;
+  width: 70%;
+}
+.fourCardsDiv{ 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    flex-wrap: wrap;
+
+}
+@media screen and (min-width:992px){
+    .fourCardsDiv{ 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    flex-wrap: wrap;
+}
+}
+

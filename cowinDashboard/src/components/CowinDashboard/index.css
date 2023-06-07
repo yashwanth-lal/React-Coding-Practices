@@ -1,0 +1,35 @@
+/* Write your CSS here */
+/*Double tap to SELECT ALL and COPY ALL*/
+.outerMain{
+background-color:  #161625;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+padding: 40px;
+}
+
+.logoDiv{
+ display: flex;
+justify-content: space-around;
+align-items: center;
+width: 15%;
+}
+
+.logo{
+height: 40px;
+width: 40px;
+}
+
+.logoHeading{
+color:  #2cc6c6;
+font-size: 20px;
+}
+
+.mainHeading{
+color: white;
+}
+.failurePara{
+color: white;
+text-align: center;
+}
+

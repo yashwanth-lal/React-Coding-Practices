@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.notFoundDiv{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.notFoundImg{
+height: 55vh;
+}
+
+.lostYourWayHeading{
+
+}
+
+.lostYourWayPara{
+
+}
+.notFoundDivD{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: black;
+}
+.lostYourWayHeadingD{
+color: white;
+}
+
+.lostYourWayParaD{
+color: white;
+
+}

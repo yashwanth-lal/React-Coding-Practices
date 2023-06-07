@@ -1,0 +1,17 @@
+/* Write your CSS here */
+/* Write your CSS here */
+/* Write your CSS here */
+*{
+    font-family: Roboto;
+}
+.notfoundDiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.notfoundImg{
+height: 50vh;
+
+}

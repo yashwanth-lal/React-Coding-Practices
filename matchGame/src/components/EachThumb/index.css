@@ -1,0 +1,13 @@
+.thumbnailImageEl {
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.btn {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+}

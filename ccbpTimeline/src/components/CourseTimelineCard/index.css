@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.spanEL{
+    background-color: #c6d6f5bf;
+    margin: 5px;
+    width: auto;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+}
+.spanDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.titleIconDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.clockDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
